@@ -111,11 +111,12 @@
 }
 .header2{
     position: relative;
-    margin-left: 300px;
+    margin-left: 290px;
     margin-top: 70px;
     margin-right: 20px;
     display: flex;
-    justify-content: space-between;
+    flex-shrink: 0;
+    
 }
 
 .header2_buttn{
@@ -125,6 +126,8 @@
     font-weight: 700;
     font-size: 100;
     cursor: pointer;
+    flex-shrink: 0;
+    margin-inline: 13px;
   
 }
 .heder2_butn_first{
