@@ -8,10 +8,12 @@
     top: 0px;
     left: 0px;
     right: 0px;
-    background-color: white;
+   
+    
 }
 .left_section{
     width: 150px;
+    height: 40px;
     
     display: flex;
     justify-content: space-around;
@@ -22,29 +24,46 @@
 }
 .middle_section{
     flex: 1;
-    margin-left: 90px;
-    margin-right: 90px;
-    max-width: 500px;
+    /* margin-left: 90px;
+    margin-right: 90px; */
+    margin: 0px;
+    max-width: 600px;
     width: 0;
     display: flex;
     align-items: center;
+    
 }
 .right_section{
-    width: 200px;
+    width: 150px;
+    height: 40px;
     
     display: flex;
     justify-content: space-around;
     flex-shrink: 0;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 0px 20px 0px 0px;
+    
+    
     
 }
 .hamburger-menu{
-    height: 24px;
+    height: 28px;
+    cursor: pointer;
+    border-radius: 40px;
+}
+.hamburger_button{
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50px;
+    background-color: white;
 }
 
+.hamburger_button:hover{
+    background-color: rgba(233, 231, 231, 0.664);
+}
 .youtube-logo{
     height: 20px;
+    cursor: pointer;
 }
 .search_button{
     height: 40px;
@@ -55,8 +74,10 @@
     margin-left: -1px;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
-    background-color: rgba(233, 231, 231, 0.664);;
+    background-color: rgba(233, 231, 231, 0.664);
+    cursor: pointer;
 }
+
 .voice_search_button{
     height: 40px;
     width: 40px;
@@ -64,6 +85,7 @@
     border: none;
     margin-left: 15px;
     background-color: rgba(233, 231, 231, 0.664);
+    cursor: pointer;
 }
 .search_icon{
     height: 25px;
@@ -98,17 +120,44 @@
     font-family: Roboto,Arial, Helvetica, sans-serif;
     font-size: 16px;
 }
-.upload_icon{
-    height: 24px;
+.upload_button{
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50px;
+    background-color: white;
 }
+.notification_button{
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius: 50px;
+    background-color: white;
+}
+.upload_icon{
+    height: 20px;
+    cursor: pointer;
+}
+.upload_button:hover{
+    background-color: rgba(233, 231, 231, 0.664);
+}
+
 .notification_icon{
-    height: 24px;
+    height: 20px;
+    cursor: pointer;
 
 }
-.my_profile_pic{
-    height: 24px;
-    border-radius: 50px;
+.notification_button:hover{
+    background-color: rgba(233, 231, 231, 0.664);
 }
+
+.my_profile_pic{
+    height: 35px;
+    width: 35px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
 .header2{
     position: relative;
     margin-left: 290px;
@@ -129,6 +178,20 @@
     flex-shrink: 0;
     margin-inline: 13px;
   
+}
+.header2_buttn_arrow{
+    height: 30px;
+    border: none;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 20px;
+    cursor: pointer;
+    flex-shrink: 0;
+    position: sticky;
+    right: 0px;
+    
+    background-color: white;
+    
 }
 .heder2_butn_first{
     background-color: black;
