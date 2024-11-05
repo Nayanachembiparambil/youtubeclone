@@ -129,8 +129,14 @@
     
     justify-content: flex-end;
 }
+.right_section{
+    margin: 0px;
+    width: 110px;
+    justify-content: flex-end;
+}
 .voice_search_button{
     background-color: white;
+    margin: 0px;
 }
 .voice_search_button:hover{
      background-color: rgba(233, 231, 231, 0.664);
@@ -139,6 +145,16 @@
 .search_button:hover{
     background-color: rgba(233, 231, 231, 0.664);
 
+}
+.right_section{
+    flex-shrink: 2;
+
+}
+.left_section{
+    margin: 0px;
+    font-size: 12px;
+    flex-shrink: 3;
+    justify-content: flex-start;
 }
 }
 
